@@ -28,7 +28,7 @@ int main() {
     //loop to print out new vector values multiplied by 3.5.
     for(int counter = 0; counter < sales.size(); counter++)
     {
-        cout << "element " << counter + 1 << ": " << sales[counter] << endl; //if prints 12, 9, 15, 18, program works.
+        cout << "element " << counter + 1 << ": " << sales[counter] << endl; //if prints 14, 10.5, 17.5, 21, program works.
     }
     return 0;
 }
